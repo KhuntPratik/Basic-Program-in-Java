@@ -1,0 +1,28 @@
+// 44 WAP to sort an Array using insertion sort.
+
+
+ class main {
+    public static void main(String[] args) {
+        int[] arr = {5, 2, 9, 1, 3};
+
+        // Insertion Sort logic
+        for (int i = 1; i < arr.length; i++) {
+            int key = arr[i];
+            int j = i - 1;
+
+            // Move elements greater than key one position ahead
+            while (j >= 0 && arr[j] > key) {
+                arr[j + 1] = arr[j];
+                j--;
+            }
+
+            arr[j + 1] = key;
+        }
+
+        // Print sorted array
+        System.out.println("Sorted Array:");
+        for (int num : arr) {
+            System.out.print(num + " ");
+        }
+    }
+}
