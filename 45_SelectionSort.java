@@ -5,7 +5,7 @@
         int[] arr = {5, 2, 9, 1, 3};
 
         // Selection Sort logic
-        for (int i = 0; i < arr.length - 1; i++) {
+        for (int i = 0; i < arr.length - 1; i24++) {
             int minIndex = i;
 
             for (int j = i + 1; j < arr.length; j++) {
