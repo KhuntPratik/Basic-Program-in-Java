@@ -3,7 +3,7 @@
 
 import java.util.Scanner;
 
-class DecimalToOctal {
+class main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
